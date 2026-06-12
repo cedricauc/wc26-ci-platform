@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors;
+  }
+  
+  .btn-secondary {
+    @apply bg-secondary text-white px-4 py-2 rounded-lg hover:bg-cyan-700 transition-colors;
+  }
+  
+  .card {
+    @apply bg-white rounded-lg shadow-md p-6;
+  }
+  
+  .risk-badge {
+    @apply px-3 py-1 rounded-full text-sm font-semibold;
+  }
+  
+  .risk-low {
+    @apply bg-heat-low text-green-900;
+  }
+  
+  .risk-moderate {
+    @apply bg-heat-moderate text-yellow-900;
+  }
+  
+  .risk-high {
+    @apply bg-heat-high text-orange-900;
+  }
+  
+  .risk-critical {
+    @apply bg-heat-critical text-red-900;
+  }
+}
+
+/* Made with Bob */
