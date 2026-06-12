@@ -209,15 +209,6 @@ class PDFIngestionService:
                 # Find stadium — strip leading junk like "- -", "Group X" before lookup
                 stadium = None
                 stadium_name = game_data.get('stadium')
-                # if stadium_name:
-                #     # Strip leading dashes/spaces
-                #     stadium_name = re.sub(r'^[\s\-–—]+', '', stadium_name)
-                #     # Strip "Group X" or "Group X -" prefix (with or without space before venue)
-                #     stadium_name = re.sub(r'^Group\s+[A-L]\s*[-–—]?\s*', '', stadium_name, flags=re.IGNORECASE)
-                #     # Strip any remaining leading dashes/spaces after group removal
-                #     stadium_name = re.sub(r'^[\s\-–—]+', '', stadium_name)
-                #     stadium_name = stadium_name.strip()
-                #     logger.info(f"Looking for stadium: '{stadium_name}'")
 
                 if stadium_name:
                     # 1. Strip leading dashes/spaces
