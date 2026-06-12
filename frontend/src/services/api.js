@@ -99,4 +99,3 @@ export const recommendationsAPI = {
 
 export default api
 
-// Made with Bob

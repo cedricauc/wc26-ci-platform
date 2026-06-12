@@ -57,16 +57,15 @@ heataware-hub/
 │   │   ├── api/         # API endpoints
 │   │   ├── models/      # Data models
 │   │   ├── services/    # Business logic
-│   │   ├── ml/          # ML models for risk analysis
-│   │   └── utils/       # Utilities
+│   │   └── ml/          # ML models for risk analysis
 │   ├── requirements.txt
 │   └── main.py
 ├── frontend/            # Vue.js frontend
 │   ├── src/
 │   │   ├── components/  # Vue components
+│   │   ├── router/      # Client-Side Navigation
 │   │   ├── views/       # Page views
-│   │   ├── services/    # API services
-│   │   └── utils/       # Utilities
+│   │   └── services/    # API services
 │   ├── package.json
 │   └── vite.config.js
 ├── data/                # Sample data and schemas
