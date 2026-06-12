@@ -298,7 +298,7 @@ class PDFIngestionService:
                     away_team_id=away_team.id,
                     stadium_id=stadium.id if stadium else None,
                     match_date=match_date,
-                    kickoff_time=match_date.replace(hour=20, minute=0, second=0, microsecond=0) if match_date else None,
+                    kickoff_time=match_date.replace(hour=16, minute=0, second=0, microsecond=0) if match_date else None,
                     stage=game_data.get('stage', 'group'),
                     group_name=game_data.get('group_name'),
                     status="scheduled"
