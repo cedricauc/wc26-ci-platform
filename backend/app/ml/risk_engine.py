@@ -152,7 +152,7 @@ class RiskEngine:
         
         # Calculate zone-specific risks if seating data provided
         zone_risks = {}
-        if seating_blocks and sun_exposed_areas:
+        if seating_blocks:
             zone_risks = self._calculate_seating_zone_risks(
                 seating_blocks,
                 sun_exposed_areas,
