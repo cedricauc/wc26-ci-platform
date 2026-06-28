@@ -96,10 +96,26 @@ REDIS_URL=redis://localhost:6379
 OPENWEATHER_API_KEY=your_api_key_here
 ```
 
-Run migrations and start server:
-```bash
-python main.py
+### Run it
+
+Run the server with:
+
+<div class="termy">
+
+```console
+$ uvicorn main:app --reload
+
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [8384] using StatReload
+INFO:     Started server process [52628]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
 ```
+
+### Interactive API docs
+
+Now go to [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
+
 
 ### Frontend Setup
 
