@@ -43,7 +43,7 @@ HeatAware Hub ingests the full FIFA World Cup 2026 match schedule along with sta
 
 ### Integrations
 - **OpenWeather API**: Real-time and forecast weather data
-- **Docling**: Parse stadium plans and architectural PDFs
+- **Docling**: Parse stadium and game schedule PDFs
 
 ### AI/ML
 - Python models for fatigue prediction, stress scoring, and environmental impact modeling
